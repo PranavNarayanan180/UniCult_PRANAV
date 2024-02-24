@@ -28,7 +28,7 @@ id.send_keys(password)
 key=web.find_element(By.XPATH,'//*[@id="organic-div"]/form/div[3]/button')
 key.click()
 
-time.sleep(100)
+time.sleep(5)
 print("SIGN IN DONE...")
 src = web.page_source
 print("SCRAPING DATA...")
