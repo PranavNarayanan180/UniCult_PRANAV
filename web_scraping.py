@@ -13,8 +13,8 @@ key.click()
 print("OPENING LINKEDIN...\nSIGN IN...")
 time.sleep(2)
 
-userid="pranavnarayanan.s2023@vitstudent.ac.in"
-password="Pic1pic#pic2pic#"
+userid="<USERID>"
+password="<PASSWORD>"
 
 # //*[@id="email-or-phone"]
 id=web.find_element(By.XPATH,'//*[@id="username"]')
