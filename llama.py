@@ -8,7 +8,7 @@ def title_module(set1,set2,set3):
         model="llama2",
         messages=[{"role": "user",
                    "content":content}],
-        stream=False
+        stream=True
     )
     time.sleep(3)
     for chunk in stream:
